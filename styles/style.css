@@ -229,7 +229,7 @@ font-weight: 400;
     font-size: 20px;
     font-weight: 400;  
 }
-
+/* holidays section styles */
 .holidays {
     display: block;
     margin-left: auto;
@@ -305,5 +305,52 @@ font-weight: 400;
     margin-top: -450px;
     margin-left: -100px;
     width: 700px;
-  z-index: -1;
+    z-index: -1;
+}
+
+.portfolio {
+    width: 85%;
+    max-width: 1320px;
+    height: 400px;
+    margin:0 auto;
+    background-color:#ffffff; 
+    display:block;
+    align-items: center;
+    margin-top: 100px;
+}
+.gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    text-transform:uppercase;
+    font-weight: 500;
+}
+
+.portfolio-title {
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.portfolio-description {
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* Portfolio image section */
+
+.image-container {
+    width: 85%;
+    max-width: 1320;
+    margin: 0 auto;
+    align-items: center;
+}
+.image-container img:hover {
+  background-color: wheat;
+  color:#FFF;
 }
