@@ -14,11 +14,10 @@
 
 /* header section design */
 .container {
-    width: 95%;
-    min-height: 1320;
+    width: 85%;
+    max-width: 1320px;
     height: 600px;
     margin:0 auto;
-    background-color: rgba(0,0,0,0);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("/assets/Banner\ Image.png");
     background-repeat: no-repeat;
@@ -28,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
     
 }
 .mini-title {
@@ -44,4 +44,23 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Category section */
+.category-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
