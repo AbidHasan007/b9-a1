@@ -64,3 +64,20 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.holiday-deal {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all-category {
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+padding: 15px 0px 15px 0;
+}
