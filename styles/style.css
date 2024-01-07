@@ -229,3 +229,81 @@ font-weight: 400;
     font-size: 20px;
     font-weight: 400;  
 }
+
+.holidays {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.holidays-intro{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.holidays-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holidays-red-text {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;   
+}
+.holidays-img {
+    position: relative;
+    top: 0;
+    left:0;
+}
+.rectangle {
+    top:0;
+    right: 0;
+    float:right;
+}
+
+.group44 {
+
+    float: right;
+    margin-top: 110px;
+    margin-right: -120px;
+}
+
+.holidays-img2 {
+    width: 85%;
+    max-width: 1320px;
+    background-image: url("/assets/Rectangle\ 2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-left: 140px;
+    padding-left: 159px;
+    padding-top: 460px;
+    position: relative;
+}
+.group75 {
+    margin-top: -450px;
+    margin-left: -100px;
+    width: 700px;
+  z-index: -1;
+}
