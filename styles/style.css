@@ -422,3 +422,42 @@ footer {
     height: 100%;
     background-color: #070211;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.address, .contact {
+    padding-top: 50px;
+}
+.all-rights, .unsubscribe {
+    padding-bottom: 50px;
+}
+.address >p, .contact>p, .all-rights>p, .unsubscribe>p {
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.footer-list-item {
+    list-style-type: none;
+    display: inline-block;
+    padding: 2px;
+  }
+
+  .footer-list {
+    text-align: center;
+  }
+
+.last-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.top-hr, .bottom-hr{
+     border: 1px solid rgba(255, 255, 255, 0.15);
+     margin:50px;
+}
