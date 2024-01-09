@@ -349,6 +349,7 @@ font-weight: 400;
     max-width: 1320;
     margin: 0 auto;
     align-items: center;
+
 }
 .image-container img:hover {
   background-color: wheat;
