@@ -19,7 +19,7 @@
     height: 600px;
     margin:0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("/assets/BannerImage.png");
+    url("../assets/BannerImage.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -90,7 +90,7 @@ padding: 15px 0px 15px 0;
     height: 600px;
     margin:0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("/assets/Vectorrr.png");
+    url("../assets/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -292,7 +292,7 @@ font-weight: 400;
 .holidays-img2 {
     width: 85%;
     max-width: 1320px;
-    background-image: url("/assets/Rectangle2.png");
+    background-image: url("../assets/Rectangle2.png");
     background-position: bottom;
     background-repeat: no-repeat;
     height: 200px;
